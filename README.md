@@ -1,3 +1,7 @@
+[model与dataset](https://pan.baidu.com/s/1fCZ4RwDtY38o6znuFvyAmg?pwd=fi3d )
+
+[视频链接]
+
 # HDR Image Reconstruction from Single LDR Images with Two-Stage Method
 
 ## Video Link:
