@@ -1,6 +1,6 @@
 [model与dataset](https://pan.baidu.com/s/1fCZ4RwDtY38o6znuFvyAmg?pwd=fi3d )
 
-[视频链接]
+[视频链接](https://b23.tv/DhdflAh)
 
 ### 实验环境详见requirements.txt
 
@@ -15,6 +15,7 @@
 
 **黄汉卿：** 主要负责第二阶段合成hdr相关的论文阅读和尝试复现，完成多个ldr合成hdr的模型的训练及测试，在逻辑上和代码运行上实现两个阶段的合并。
 
+**姚雪：** 主要负责第二阶段的论文阅读、方法尝试（非最终使用的方法）、录制视频
 
 
 ## Abstract
