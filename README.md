@@ -77,7 +77,7 @@ Z_{i, j}=f(E_i\Delta t_j)	\tag 1
 ```math
 \Delta t_j=\frac1{\tau^{T/2}},...,\frac1{\tau^2},\frac1{\tau},1,\tau,\tau^2,...,\tau^{T/2}	\tag 2
 ```
-其中T为偶数，$`j=1, 2, ..., T+1`$。然后将$`E_i\Delta t_j`$归一化，使$`E_i\Delta t_{T/2+1}(=E_i\ because\ \Delta t_{T/2+1}=1)`$的平均像素值等于0.5，在原作者的实验中，使用$`T=8,\tau=\sqrt2`$。Figure 3为得到的不同曝光的LDR图像，虽然$E_i$的归一化和$`\Delta t_j`$的选择决定了推断的HDR图像的动态范围，但$`E_i`$或$`\Delta t_j`$的线性缩放可以通过推断HDR值的线性缩放来补偿。因此，如果推断的HDR图像有点太暗或太亮，用户可以通过线性缩放像素值来调整它。
+其中T为偶数，$`j=1, 2, ..., T+1`$。然后将$`E_i\Delta t_j`$归一化，使$`E_i\Delta t_{T/2+1}(=E_i\ because\ \Delta t_{T/2+1}=1)`$的平均像素值等于0.5，在原作者的实验中，使用$`T=8,\tau=\sqrt2`$。Figure 3为得到的不同曝光的LDR图像，虽然$`E_i`$的归一化和$`\Delta t_j`$的选择决定了推断的HDR图像的动态范围，但$`E_i`$或$`\Delta t_j`$的线性缩放可以通过推断HDR值的线性缩放来补偿。因此，如果推断的HDR图像有点太暗或太亮，用户可以通过线性缩放像素值来调整它。
 
 ![](https://github.com/HuangChengbin1/Two-Stages-Method-HDR/blob/main/img-for-README/Forest_mapped.png?raw=true)
 
