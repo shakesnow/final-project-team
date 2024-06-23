@@ -2,11 +2,13 @@
 
 [视频链接]
 
+### 由于github公式识别会出现乱码，实验报告请看README.pdf
+
+### 实验环境详见requirements.txt
+
 # HDR Image Reconstruction from Single LDR Images with Two-Stage Method
 
 ## Video Link:
-
-
 
 ## 成员分工：
 **黄成斌：** 主要负责前期论文收集、第二阶段方法的尝试(非最终使用的方法)、项目报告撰写。
