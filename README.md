@@ -55,7 +55,7 @@
 
 <center>Fig.1. Overview of the proposed method. The flow is decomposed into the learning and inference phases. In the learning phase, the bracketed LDR images are first created from HDR databases by simulating cameras. Next, we let our fully CNNs learn the changes in the exposures of the bracketed images. In the inference phase, the learned CNNs compute LDR images with different exposures from a single input LDR image. The final HDR image is then generated from these bracketed LDR images.</center>
 
-Figure 1  说明了我们的方法在多曝光LDR图像合成阶段的整体流程，通过推断Bracketed LDR images并合并它们，间接地从单个LDR输入重建HDR图像。流程被分解为学习和推理阶段。在学习阶段，首先通过模拟相机从HDR数据库创建Bracketed LDR images（第3.1.1节）。接下来，让神经网络模型（ up-/down-exposure networks）学习Bracketed images曝光的变化（第4节）。在推理阶段，学习的模型计算来自单个输入LDR图像的不同曝光的LDR图像。在up/down-exposure networks中，分别推断出Brighter/dimmer bracketed images。然后从这些Bracketed LDR images生成最终的HDR图像。
+Figure 1  说明了我们的方法在多曝光LDR图像合成阶段的整体流程，通过推断Bracketed LDR images并合并它们，间接地从单个LDR输入重建HDR图像。流程被分解为学习和推理阶段。在学习阶段，首先通过模拟相机从HDR数据库创建Bracketed LDR images（第3.1.1节）。接下来，让神经网络模型（ up/down-exposure networks）学习Bracketed images曝光的变化（第4节）。在推理阶段，学习的模型计算来自单个输入LDR图像的不同曝光的LDR图像。在up/down-exposure networks中，分别推断出Brighter/dimmer bracketed images。然后从这些Bracketed LDR images生成最终的HDR图像。
 
 #### 3.1.1 创建Bracketed Images用于训练
 
