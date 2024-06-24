@@ -1,6 +1,6 @@
 [model与dataset](https://pan.baidu.com/s/1fCZ4RwDtY38o6znuFvyAmg?pwd=fi3d )
 
-[视频链接](https://b23.tv/DhdflAh)
+[视频链接](https://www.bilibili.com/video/BV1tL3Je9E35/)
 
 ### 实验环境详见requirements.txt
 
